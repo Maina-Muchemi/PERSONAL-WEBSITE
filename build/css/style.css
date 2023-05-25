@@ -530,7 +530,8 @@ video {
 }
 
 body {
-  background: rgb(29, 25, 25);
+  background: #081b29;
+  color:aliceblue;
 }
 .header {
   position: fixed;
@@ -558,7 +559,7 @@ body {
   font-weight: 500;
   font-size: 19px;
   margin-left: 35px;
-  margin-bottom: 10px;
+  
   transition: 2s;
   
   
@@ -569,4 +570,39 @@ body {
 }
 .bar a:active {
   color:aqua;
+}
+
+
+section {
+  height:100vh;
+  
+  align-items: center;
+  display: flex;
+  padding:0 10%;
+  
+  
+}
+.content {
+  max-width: 600px;
+
+}
+.content h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+.content h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color:aqua;
+}
+.content p {
+  font-size: 15px;
+  margin: 19px 0 38px;
+}
+img {
+  margin-left: 90px;
+  margin-top: 0;
+  
+  
+
 }
