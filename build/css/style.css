@@ -522,3 +522,51 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans serif;
+}
+
+body {
+  background: rgb(29, 25, 25);
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  justify-content: space-between;
+  display: flex;
+  z-index:100%;
+  align-items: flex-end;
+
+}
+.bred {
+  font-size: 25px;
+  color:aliceblue;
+  font-weight: 800;
+  
+
+}
+.bar a {
+  color:aliceblue;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 19px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  transition: 2s;
+  
+  
+
+}
+.bar a:hover {
+  color: blue;
+}
+.bar a:active {
+  color:aqua;
+}
