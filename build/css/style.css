@@ -724,3 +724,16 @@ footer {
   
   width: 100%;
 }
+.About-content {
+  font-size: large;
+  
+}
+.About-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+
+}
+.About-content h4 {
+  font-size: 32px;
+  font-weight: 600;
+}
