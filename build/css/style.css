@@ -561,11 +561,17 @@ body {
   font-weight: 500;
   font-size: 19px;
   margin-left: 35px;
-  
   transition: 2s;
   
-  
-
+}
+.bred:hover .bar a {
+  animation: slide 2s  ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes slide {
+  100% {
+    transform: translateX(100%);
+  }
 }
 .bar a:hover {
   color: blue;
